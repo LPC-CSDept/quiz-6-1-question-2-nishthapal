@@ -12,7 +12,7 @@ TEST_CASE("Test1 ", "[Swap two values]")
 	n2 = 20;
 	n3 = 30;
 	ret = findMin(n1, n2, n3);
-	printResult(n1, n2, n3, ret);
+	printresult(n1, n2, n3, ret);
 	REQUIRE(ret == 10);
 }
 TEST_CASE("Test2 ", "[Swap two values]")
@@ -23,6 +23,6 @@ TEST_CASE("Test2 ", "[Swap two values]")
 	n2 = -10;
 	n3 = 5;
 	ret = findMin(n1, n2, n3);
-	printResult(n1, n2, n3, ret);
+	printresult(n1, n2, n3, ret);
 	REQUIRE(ret == -10);
 }
